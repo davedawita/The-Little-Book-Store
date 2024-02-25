@@ -1,5 +1,5 @@
 header {
-    text-align: center;
+  text-align: center;
   color: white;
   font-size: 15px;
   padding: 2px;
@@ -17,14 +17,15 @@ h2 {
   margin: 0 auto;
   font-size: 17px;
   color: rgb(0, 233, 250);
-  background-color: rgba(0, 0, 0, 0.555);
-  margin: 0px 300px 0px 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0px 300px 2px 300px;
+  padding: 5px;
 }
 
 #menu {
-  background-color: rgba(233, 158, 37, 0.959);
+  background-color: rgba(233, 200, 150, 0.959);
   padding: 7px;
-  margin: 0px 200px 0px 200px;
+  margin: 0px 250px 0px 250px;
   border-radius: 5px;
   display:flex;
   justify-content:space-around;
@@ -32,7 +33,7 @@ h2 {
 }
 
 .button {
-  background-color: darkgrey;
+  background-color: rgb(230, 230, 230);
   border-radius: 5px;
   padding:2px;
   
@@ -40,30 +41,174 @@ h2 {
 
 a {
   color: black;
-  font-size: 13px;
+  font-size: 10px;
   padding: 5px;
   text-decoration:none;
   
 }
 
 h3 {
-  background-color: rgba(255, 255, 255, 0.534);
-  margin: 10px 770px 10px 200px;
-  padding: 5px 10px 5px 5px;
+  /* background-color: rgba(255, 255, 255, 0.534); */
+  /* /* margin: 15px 40px 10px 50px;
+  padding: 2px 5px 2px 5px; */
+  position:absolute;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  /* top: 10px; */
+  padding: 2px 40px 0px 10px;
+  
 }
 
 body {
   background: url("palacio-nacional-de-mafra-5118010_1280.jpg");
   background-size: 100vw 100vh;
-
+  
 }
 
-#genre {
+.genre {
   color: white;
   font-weight: bolder;
+  margin: 15px 147px 10px 135px;
+  padding: 10px 10px 10px 22px;
   display:flex;
-  justify-content:space-between;
-  flex-flow:row wrap;
-  align-content: center;
+  flex-wrap:wrap;
+  justify-content:center;
+    
 }
 
+#fiction {
+  display: flex; 
+  align-content: flex-start;
+  padding: 1px 18px 10px 20px;
+}
+
+#history {
+  display: flex;
+  padding: 1px 18px 10px 20px;
+}
+
+#romance {
+  display: flex;
+  padding: 1px 18px 10px 20px;
+}
+
+#biography {
+  display: flex;
+  padding: 1px 18px 10px 20px;
+}
+
+#Ch-Litr {
+  display: flex;
+  padding: 1px 18px 10px 20px;
+}
+
+#novel{  
+  display: flex;
+  padding: 1px 18px 10px 20px;
+}
+
+#Sc-Fic{  
+  display: flex; 
+  padding: 1px 18px 10px 20px;
+}
+
+#Non-Fic{  
+  display: flex;
+  padding: 1px 18px 10px 20px;
+}
+
+#adventure{  
+  display: flex;
+  padding: 1px 18px 10px 20px;
+}
+
+img {
+  border: 2px solid rgb(255, 255, 200);
+  
+}
+@media (Max-width: 600px) {
+
+  body {
+    background-size: 100vw 50vh;;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 20px 10px 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0px 20px 10px 20px;
+  }
+
+  #menu {
+    background-color: rgba(233, 200, 150, 0.959);
+    padding: 7px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5px;
+    display:flex;
+    justify-content:space-around;
+  
+  }
+
+  .genre {
+    color: white;
+    font-weight: bolder;
+    margin: 10px 2px 7px 8px;
+    padding: 10px 2px 5px 8px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+  }
+
+  #fiction {
+    display: flex; 
+    align-content: center;
+    padding: 5px 17px 5px 5px;
+  }
+
+  #history {
+    display: flex;
+    padding: 5px 17px 5px 5px;
+  }
+
+  #romance {
+    display: flex;
+    padding: 5px 17px 5px 5px;
+  }
+
+  #biography {
+    display: flex;
+    padding: 5px 17px 5px 5px;
+  }
+
+  #Ch-Litr {
+    display: flex;
+    padding: 5px 17px 5px 5px;
+  }
+
+  #novel{  
+    display: flex;
+    padding: 5px 17px 5px 5px;
+  }
+
+  #Sc-Fic{  
+    display: flex; 
+    padding: 5px 17px 5px 5px;
+  }
+
+  #Non-Fic{  
+    display: flex;
+    padding: 5px 17px 5px 5px;
+  }
+
+  #adventure{  
+    display: flex;
+    padding: 5px 17px 5px 5px;
+  }
+
+}
