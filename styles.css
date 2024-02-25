@@ -1,0 +1,69 @@
+header {
+    text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 2px;
+    
+}
+h1 {
+  margin: 0 auto;
+  color: rgb(0, 255, 55);
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0px 300px 0px 300px;
+
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: 17px;
+  color: rgb(0, 233, 250);
+  background-color: rgba(0, 0, 0, 0.555);
+  margin: 0px 300px 0px 300px;
+}
+
+#menu {
+  background-color: rgba(233, 158, 37, 0.959);
+  padding: 7px;
+  margin: 0px 200px 0px 200px;
+  border-radius: 5px;
+  display:flex;
+  justify-content:space-around;
+  
+}
+
+.button {
+  background-color: darkgrey;
+  border-radius: 5px;
+  padding:2px;
+  
+}
+
+a {
+  color: black;
+  font-size: 13px;
+  padding: 5px;
+  text-decoration:none;
+  
+}
+
+h3 {
+  background-color: rgba(255, 255, 255, 0.534);
+  margin: 10px 770px 10px 200px;
+  padding: 5px 10px 5px 5px;
+}
+
+body {
+  background: url("palacio-nacional-de-mafra-5118010_1280.jpg");
+  background-size: 100vw 100vh;
+
+}
+
+#genre {
+  color: white;
+  font-weight: bolder;
+  display:flex;
+  justify-content:space-between;
+  flex-flow:row wrap;
+  align-content: center;
+}
+
