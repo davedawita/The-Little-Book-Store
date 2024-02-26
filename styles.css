@@ -7,7 +7,7 @@ header {
 }
 h1 {
   margin: 0 auto;
-  color: rgb(0, 255, 55);
+  color: white;
   background-color: rgba(0, 0, 0, 0.7);
   margin: 0px 300px 0px 300px;
 
@@ -47,15 +47,13 @@ a {
   
 }
 
-h3 {
-  /* background-color: rgba(255, 255, 255, 0.534); */
-  /* /* margin: 15px 40px 10px 50px;
-  padding: 2px 5px 2px 5px; */
+h3 {  
+  margin: 8px 10px 10px 5px;
+  padding: 2px 5px 2px 5px;
   position:absolute;
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  /* top: 10px; */
   padding: 2px 40px 0px 10px;
   
 }
@@ -115,6 +113,7 @@ body {
 
 #Non-Fic{  
   display: flex;
+  color: black;
   padding: 1px 18px 10px 20px;
 }
 
@@ -123,11 +122,11 @@ body {
   padding: 1px 18px 10px 20px;
 }
 
-img {
-  border: 2px solid rgb(255, 255, 200);
+/* img {
+  /* border: 2px solid rgb(255, 255, 200); */
   
-}
-@media (Max-width: 600px) {
+/* } */ */
+@media (Max-width: 400px) {
 
   body {
     background-size: 100vw 50vh;;
@@ -136,12 +135,12 @@ img {
   h1 {
     text-align: center;
     font-size: 30px;
-    margin: 15px 20px 10px 20px;
+    margin: 5px 20px 10px 10px;
   }
 
   h2 {
     text-align: center;
-    margin: 0px 20px 10px 20px;
+    margin: 0px 20px 10px 10px;
   }
 
   #menu {
@@ -157,8 +156,8 @@ img {
   .genre {
     color: white;
     font-weight: bolder;
-    margin: 10px 2px 7px 8px;
-    padding: 10px 2px 5px 8px;
+    margin: 10px 2px 7px 0px;
+    padding: 10px 2px 5px 0px;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
