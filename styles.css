@@ -47,15 +47,11 @@ a {
   
 }
 
-h3 {  
-  margin: 8px 10px 10px 5px;
-  padding: 2px 5px 2px 5px;
-  position:absolute;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  padding: 2px 40px 0px 10px;
-  
+
+
+.fiction {
+  color: white;
+  font-weight: bolder;
 }
 
 body {
@@ -122,11 +118,732 @@ body {
   padding: 1px 18px 10px 20px;
 }
 
-/* img {
-  /* border: 2px solid rgb(255, 255, 200); */
+img {
+  border: 2px solid rgb(255, 255, 200);
   
-/* } */ */
-@media (Max-width: 400px) {
+} 
+
+p {
+  color: black;
+  font-size: 12px;
+}
+
+.bookInfo {
+color: black;
+font-size: 14px;
+}
+
+option {
+  color:black;
+  font-size: 12px;
+  width:100px;
+  
+}
+.output1 {
+  color:black;
+  margin: 20px 50px 450px 5px;
+  font-size: 13px;
+
+}
+
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px; 
+}
+
+.modal1 {  
+  background-color: rgb(236, 217, 109);
+  width: 550px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle1 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn1 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 5px;
+      
+}
+
+#closeBtn1:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container1 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container1.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+
+
+#book-list1 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+        
+}
+
+#book-list1:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px; 
+}
+
+
+
+.modal2 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle2 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn2 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+        
+}
+
+#closeBtn2:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container2 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container2.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#book-list2 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list2:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px;
+}
+
+
+
+.modal3 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle3 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn3 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+      
+}
+
+#modal_container3 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container3.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#closeBtn3:hover {
+background-color: white;
+color:black;
+
+}
+
+#book-list3 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list3:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px; 
+}
+
+.modal4 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle4 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn4 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+      
+}
+
+#closeBtn4:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container4 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container4.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#book-list4 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list4:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px; 
+}
+
+.modal5 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle5 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn5 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+      
+}
+
+#closeBtn5:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container5 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container5.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#book-list5 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list5:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown6 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px;  
+}
+
+.modal6 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle6 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn6 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+        
+}
+
+#closeBtn6:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container6 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container6.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#book-list6 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list6:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown7 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px; 
+}
+
+.modal7 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle7 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn7 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+      
+}
+
+#closeBtn7:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container7 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container7.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#book-list7 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list7:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown8 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px; 
+}
+
+.modal8 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle8 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn8 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+      
+}
+
+#closeBtn8:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container8 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container8.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#book-list8 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list8:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown9 {
+  position: relative;
+  display: inline-block;
+  margin: 220px 100px 320px 20px;  
+}
+
+.modal9 {
+  background-color: rgb(236, 217, 109);
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+     
+}
+
+.modalTitle9 {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin:35px 20px 450px 20px;
+
+}
+
+#closeBtn9 {
+  color: white;
+  background-color: orangered;
+  margin: 12px 20px 485px 0px;
+      
+}
+
+#closeBtn9:hover {
+background-color: white;
+color:black;
+
+}
+
+#modal_container9 {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(31, 25, 25, 0.8);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  pointer-events: none;
+}
+
+#modal_container9.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#book-list9 {
+  background-color: #93db34;
+  border-radius: 5px;
+  border: 2px solid black;  
+  color: black;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px
+    
+}
+
+#book-list9:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+h3 {  
+  margin: 8px 10px 10px 5px;
+  padding: 2px 5px 2px 5px;
+  position:absolute;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 2px 40px 0px 10px;
+  
+}
+
+
+
+@media (Max-width: 500px) {
 
   body {
     background-size: 100vw 50vh;;
