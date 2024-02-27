@@ -76,9 +76,10 @@ window.onload = () => {
   
     link1.addEventListener('click', function() {
       modal_container1.classList.add('show')
-          
+            
     })
   
+    
     closeBtn1.addEventListener('click', function() {
       modal_container1.classList.remove('show')
     } )

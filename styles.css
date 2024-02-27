@@ -154,7 +154,7 @@ option {
 }
 
 .modal1 {  
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 550px;
   height: 500px;
   border-radius: 5px;
@@ -234,7 +234,7 @@ color:black;
 
 
 .modal2 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -312,7 +312,7 @@ color:black;
 
 
 .modal3 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -387,7 +387,7 @@ color:black;
 }
 
 .modal4 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -462,7 +462,7 @@ color:black;
 }
 
 .modal5 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -537,7 +537,7 @@ color:black;
 }
 
 .modal6 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -612,7 +612,7 @@ color:black;
 }
 
 .modal7 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -687,7 +687,7 @@ color:black;
 }
 
 .modal8 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -762,7 +762,7 @@ color:black;
 }
 
 .modal9 {
-  background-color: rgb(236, 217, 109);
+  background-color: rgb(241,238,215);
   width: 500px;
   height: 500px;
   border-radius: 5px;
@@ -831,6 +831,7 @@ color:black;
 }
 
 h3 {  
+  color: rgb(241, 238, 215);
   margin: 8px 10px 10px 5px;
   padding: 2px 5px 2px 5px;
   position:absolute;
@@ -839,6 +840,34 @@ h3 {
   flex-wrap: wrap;
   padding: 2px 40px 0px 10px;
   
+}
+
+.modalTitle1 {
+  color:black;
+}
+.modalTitle2 {
+  color:black;
+}
+.modalTitle3 {
+  color:black;
+}
+.modalTitle4 {
+  color:black;
+}
+.modalTitle5 {
+  color:black;
+}
+.modalTitle6 {
+  color:black;
+}
+.modalTitle7 {
+  color:black;
+}
+.modalTitle8 {
+  color:black;
+}
+.modalTitle9 {
+  color:black;
 }
 
 
